@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(160, 231, 207);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
+main {
+  width: 500px;
+  height: 750px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 2em;
+  padding: 2em 0.5em;
+  overflow-y: scroll;
+  position: relative;
+}
+main .mystory {
+  width: 100%;
+}
+main .mystory .story {
+  width: 100%;
+  color: white;
+  padding: 0.4em 2em;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(205, 197, 197);
+}
+main .mystory .story img {
+  width: 100px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .mystory .story .name h2 {
+  font-size: 2.4em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .mystory .story .name p {
+  margin-top: 0.2em;
+  font-size: 1.5em;
+  opacity: 0.7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .stories {
+  width: 100%;
+}
+main .stories .story {
+  width: 100%;
+  color: white;
+  padding: 0.4em 2em;
+  display: flex;
+  align-items: center;
+  gap: 2.5em;
+  margin-top: 1em;
+}
+main .stories .story img {
+  width: 100px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 3px solid rgb(14, 234, 10);
+  cursor: pointer;
+}
+main .stories .story .name h2 {
+  font-size: 2.4em;
+}
+main .stories .story .name p {
+  margin-top: 0.5em;
+  font-size: 1.5em;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2274509804);
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.modal img {
+  width: 500px;
+  height: 750px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 2em;
+}
+.modal video {
+  width: 500px;
+  height: 750px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 2em;
+  display: none;
+}
+.modal i {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  color: rgb(24, 23, 23);
+  font-size: 2.5em;
+  top: 13%;
+  left: 58.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
