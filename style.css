@@ -136,4 +136,37 @@ main .stories .story .name p {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  main .mystory .story img {
+    width: 80px;
+  }
+  main .mystory .story .name h2 {
+    font-size: 1.2em;
+  }
+  main .mystory .story .name p {
+    font-size: 1em;
+  }
+  main .stories .story img {
+    width: 80px;
+  }
+  main .stories .story .name h2 {
+    font-size: 1.2em;
+  }
+  main .stories .story .name p {
+    font-size: 1em;
+  }
+  .modal i {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    top: 1%;
+    left: 85%;
+  }
 }/*# sourceMappingURL=style.css.map */
